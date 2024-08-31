@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Get Fit Now</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#workouts">Workouts</a></li>
+                <li><a href="#nutrition">Nutrition</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="mobile-menu" class="mobile-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#workouts">Workouts</a></li>
+            <li><a href="#nutrition">Nutrition</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section id="home" class="hero">
+        <h2>Welcome to Your Fitness Journey</h2>
+        <p>Your one-stop destination for workout plans, nutrition advice, and more!</p>
+        <button onclick="showAlert()">Get Started</button>
+    </section>
+
+    <section id="workouts">
+        <h2>Workouts</h2>
+        <div class="workout-grid">
+            <div class="workout">
+                <h3>Cardio</h3>
+                <p>Improve your endurance and burn calories.</p>
+            </div>
+            <div class="workout">
+                <h3>Strength Training</h3>
+                <p>Build muscle and boost your metabolism.</p>
+            </div>
+            <div class="workout">
+                <h3>Yoga</h3>
+                <p>Enhance your flexibility and mental clarity.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nutrition">
+        <h2>Nutrition</h2>
+        <p>Eating right is a key part of staying fit. Explore our nutrition guides to find healthy meal plans.</p>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@getfitnow.com | Phone: (123) 456-7890</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
